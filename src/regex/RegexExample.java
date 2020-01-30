@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class RegexExample {
     public static void main(String[] args){
-        //匹配数字。
+        //匹配数字
         String input = "slfjaldfj345kjh3hk273jhi2u5h2367uh5";
         String regex = "[0-9]{1,}";
         Pattern pattern = Pattern.compile(regex);
